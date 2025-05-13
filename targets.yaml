@@ -1,0 +1,14 @@
+targets:
+  - ip: "192.168.1.100"
+    port: 80
+    path: "/submit.php"
+    protocol: "http"
+    headers:
+      Authorization: "Bearer your_token"
+
+  - ip: "10.0.0.2"
+    port: 8080
+    path: "/api/submit"
+    protocol: "https"
+    timeout: 5
+
